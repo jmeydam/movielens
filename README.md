@@ -20,7 +20,7 @@ The model is very basic, relying only on the overall mean, the regularized movie
 
 This approach and various properties of the data were covered in class and are documented here:
 
-> <https://rafalab.github.io/dsbook/large-datasets.html#recommendation-systems>
+<https://rafalab.github.io/dsbook/large-datasets.html#recommendation-systems>
 
 Much of the code was already provided by Prof. Irizarry and is used here with minor modifications.
 
