@@ -29,15 +29,15 @@ Much of the code was already provided by Prof. Irizarry and is used here with mi
 The approach is described in a [blog post by Edwin Chen](http://blog.echen.me/2011/10/24/winning-the-netflix-prize-a-summary/):
 
 > Suppose Alice rates Inception 4 stars. We can think of this rating as composed of several parts:
-
+>
 > * A __baseline rating__ (e.g., maybe the mean over all user-movie ratings is 3.1 stars).
 > * An __Alice-specific effect__ (e.g., maybe Alice tends to rate movies lower than the average user, so her ratings are -0.5 stars lower than we normally expect).
 > * An __Inception-specific effect__ (e.g., Inception is a pretty awesome movie, so its ratings are 0.7 stars higher than we normally expect).
-
+>
 > [...]
-
+>
 > And, in fact, modeling these biases turned out to be fairly important: in their paper describing their final solution to the Netflix Prize, Bell and Koren write that
-
+>
 >> Of the numerous new algorithmic contributions, I would like to highlight one – those humble baseline predictors (or biases), which capture main effects in the data. While the literature mostly concentrates on the more sophisticated algorithmic aspects, we have learned that an accurate treatment of main effects is probably at least as significant as coming up with modeling breakthroughs.
 
 In this project, the edx dataset is split into a training set and a 
